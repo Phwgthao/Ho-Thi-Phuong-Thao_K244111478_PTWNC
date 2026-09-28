@@ -1,0 +1,10 @@
+thead tr {
+    background-color: yellow;
+}
+table, tr, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+tbody tr:nth-child(even) {
+    background-color: #fff7f7;
+}

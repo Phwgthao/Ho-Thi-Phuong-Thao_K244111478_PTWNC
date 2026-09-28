@@ -1,0 +1,18 @@
+thead{
+    background-color: #e0f313;
+}
+table,tr,td,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+tbody tr:nth-child(even) {
+    background-color: #5fbce8;
+}
+tbody tr:nth-child(odd) {
+    background-color: #88ea8d;
+}
+tbody tr:hover {
+    background-color: #f17ec7;
+    font-weight: italic;
+    cursor: pointer;
+}
